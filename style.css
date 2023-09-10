@@ -41,11 +41,11 @@ ul li {
 a {
   text-decoration: none;
   color: var(--dark);
-  font-style: 16px;
+  font-size: 16px;
 }
 /* Раздел с названием */
 .info {
- height: 616px;
+  height: 616px;
 }
 .start h1{
   font-size: 60px;
@@ -65,9 +65,9 @@ a {
   grid-template-columns: repeat(2, 1fr);
 }
 .hero {
- height: 440px;
- width: 1180px;
- padding-top: 32px;
+  height: 440px;
+  width: 1180px;
+  padding-top: 32px;
 }
 /* Раздел - О предприятии */
 .about {
@@ -164,7 +164,7 @@ a {
 }
 .footer_grid {
   display: grid;
-  grid-template: repeat(1, 1fr)/repeat(4, 1fr);
+  grid-template: repeat(1, 1fr)/4fr repeat(3, 1fr);
   padding-top: 56px;
 }
 .footer_grid_item ul li{
